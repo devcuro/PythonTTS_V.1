@@ -1,10 +1,11 @@
+#BROKEN
 import asyncio
 from voicevox import Client
 import speech_recognition as sr
 import openai
 
 
-openai.api_key = "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" # Replace with your own API key
+openai.api_key = "key-here" # Replace with your own API key
 
 
 async def generate_voice():
