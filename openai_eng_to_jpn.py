@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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" # Replace with your own API key
+openai.api_key = "Key-here" # Replace with your own API key
 
 def translate(text):
     model_engine = "text-davinci-002" # Choose the language model to use
