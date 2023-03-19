@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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" # Replace with your own API key
+openai.api_key = "KEY-HERE" # Replace with your own API key
 
 def translate(text, target_language):
     source_language = "English" if target_language == "Japanese" else "Japanese"
